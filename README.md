@@ -35,4 +35,4 @@ Email alerts are disabled by default. To enable them, edit `app.py` and set `EMA
 ## Deployment
 - For Render: create a new web service, set the start command `gunicorn app:app`, add necessary environment variables and push files.
 - For Railway/Heroku: similar steps (Procfile with web: gunicorn app:app).
-
+ LIVE AT: https://sentineai.onrender.com 
